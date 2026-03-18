@@ -185,8 +185,3 @@ Loop que repete até `<EOS>` ou `max_steps = 20`:
 - A parada em `<EOS>` no passo 5 é **forçada manualmente** para fins de demonstração.
 - O ruído adicionado aos logits (`× 50`) existe para simular variabilidade real, já que pesos aleatórios tendem a concentrar probabilidade num único token.
 - Multi-head attention, FFN no Decoder e múltiplas camadas do Decoder **não estão implementados** — o foco é na mecânica das três tarefas centrais.
-
----
-- Vaswani, A. et al. **Attention Is All You Need**. NeurIPS 2017. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
-- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) — Jay Alammar
-- [Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) — Harvard NLP
