@@ -20,8 +20,6 @@
 
 Este projeto simula o pipeline de inferência de um Transformer encoder-decoder (arquitetura do paper *"Attention is All You Need"*, Vaswani et al., 2017), com foco no comportamento do Decoder durante a geração auto-regressiva de texto.
 
-**Caso de uso ilustrativo:** tradução de francês → inglês (os dados são fictícios/aleatórios; o foco é a mecânica, não a qualidade da tradução).
-
 ---
 
 ## Arquitetura Implementada
